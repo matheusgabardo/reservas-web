@@ -1,12 +1,26 @@
-# React + Vite
+# Frontend
+O frontend da aplicação foi desenvolvido utilizando React. A interface permite que os usuários realizem login, visualizem as salas de coworking disponíveis, façam reservas e gerenciem suas informações.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
+Login: Formulário para login de usuários utilizando o token gerado pela API.
 
-Currently, two official plugins are available:
+Visualização de Salas: Exibe as salas de coworking cadastradas e suas avaliações.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Reserva de Salas: Permite que usuários façam reservas de salas para horários específicos.
 
-## Expanding the ESLint configuration
+Área Administrativa: Acesso exclusivo para administradores, que podem gerenciar as salas e visualizar as reservas feitas.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como Rodar o Frontend
+
+### Acesse o repositório
+```bash
+    cd reservas-web
+```
+### Instale as dependências:
+```bash
+    npm install
+```
+### Inicie o servidor
+```bash
+    npm run dev
+```
