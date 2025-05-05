@@ -6,7 +6,7 @@ import Login from "./pages/auth/login/Index";
 import Register from "./pages/auth/register/Index";
 import DashboardLayout from "./pages/layouts/dashboard";
 import Home from "./pages/dashboard/home/Index";
-import Reservations from "./pages/dashboard/reservations/Index";
+import Reservation from "./pages/dashboard/reservation/Index";
 
 const root = document.getElementById("root");
 
@@ -19,7 +19,7 @@ ReactDOM.createRoot(root).render(
           </Route>
           <Route path="dashboard" element={<DashboardLayout />}>
             <Route index element={<Home />} />
-            <Route path="reservations" element={<Reservations />} />
+            <Route path="reservation" element={<Reservation />} />
           </Route>
         </Routes>
       </BrowserRouter>,
